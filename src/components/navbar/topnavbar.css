@@ -1,0 +1,17 @@
+.navbar {
+    height: 65px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-container.container {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    font-weight: 500;
+}
+
+#basic-navbar-nav {
+    text-align: center;
+}
+

@@ -1,0 +1,45 @@
+#skill{
+    padding-top: 1rem;
+    height: 85vh;
+}
+
+.skill-h1 {
+    text-align:center;
+}
+
+.skill-icon {
+    color: black;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    color: var(--color-bg);
+    margin-top: 0.5rem;
+}
+
+.card-text {
+    color: var(--color-bg);
+}
+
+/*media queries, (medium device)*/
+@media screen and (max-width: 1200px) {
+    #skill {
+        height: 100vh;
+    }
+}
+
+/*media queries, (small device)*/
+@media screen and (max-width: 765px) {
+    #skill {
+        height: 145vh;
+    }
+}
+
+
+
+

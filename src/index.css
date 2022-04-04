@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/*create react variable*/
+:root {
+    --color-bg: #49274a;
+    --color-bg-light : #94618e;
+    --color-bg-darker: #694565;
+    --color-bg-pink: #f49dfa;
+    --color-white: #f8eee7;
+    --color-light: #f4decb; /*sand color*/
+    --color-black: #000;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 96%;
+
+    --transition: all 400ms ease;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /*Can try the font Alegreya Sans*/
+    color: var(--color-white);
+    line-height: 1.5;
+    background-color: var(--color-bg);
+}
+
+/*General Style*/
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto; /*center*/
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: #ea5bfc; /*#ea5bfc*/
+    transition: var(--transition);
+    text-decoration : none;
+}
+
+a:hover {
+    color: var(--color-light);
+    font-weight: 500;
+    text-decoration : none;
+}
+
+.loading-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-bg);
+}
+
+.loading-page > h4 {
+    padding-left: 3rem;
+}
+
+/* CSS for button */
+.button-52 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 10px 15px 10px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: var(--color-bg-pink);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 10px 40px 10px;
+  }
+}
+
+img {
+    object-fit: contain;
+    width: auto;
+    display: block;
+}
+
+
+/**media queries (medium device)**/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/**media queries (small device)**/
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,40 @@
+#resume {
+    padding-top: 1rem;
+    background-color: var(--color-bg);
+}
+
+.text-center {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.vertical-timeline-element-title {
+    color: var(--color-bg-light);
+}
+
+.vertical-timeline-element-subtitle {
+    color: var(--color-bg-darker);
+}
+
+#description {
+    color: var(--color-bg);
+}
+
+@media only screen and (min-width: 1170px){
+
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        color: var(--color-bg-pink);
+        opacity: 1;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+        opacity: .9;
+        font-weight: 600;
+        color: var(--color-bg-darker);
+    }
+}
+

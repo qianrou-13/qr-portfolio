@@ -1,0 +1,8 @@
+#footer {
+    height: 20vh;
+    border-top: 5px solid white;
+}
+
+#footer > .container {
+    margin-bottom:  5%;
+}

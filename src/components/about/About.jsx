@@ -8,7 +8,7 @@ const About = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 400,
+      offset: 300,
       duration: 1500
     });
     AOS.refresh();

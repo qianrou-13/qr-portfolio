@@ -2,7 +2,7 @@
   "name": "qr-pf-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/qianrou-13/qr-portfolio.git",
+  "homepage": "https://github.com/qianrou-13/qr-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.16.2",

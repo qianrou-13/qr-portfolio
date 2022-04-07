@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/qianrou-13/qr-portfolio.git/static/css/main.0cc33491.css",
-    "main.js": "/qianrou-13/qr-portfolio.git/static/js/main.f57738a8.js",
-    "static/media/Me2.jpg": "/qianrou-13/qr-portfolio.git/static/media/Me2.04476f847ea3a7b2d4dc.jpg",
-    "static/media/Testimonial1.jpg": "/qianrou-13/qr-portfolio.git/static/media/Testimonial1.908ae6b7168376390dbd.jpg",
-    "static/media/Testimonial2.jpg": "/qianrou-13/qr-portfolio.git/static/media/Testimonial2.a5ade79e691cd645f98d.jpg",
-    "static/media/QianRouKoh_Resume.pdf": "/qianrou-13/qr-portfolio.git/static/media/QianRouKoh_Resume.76dbdcc75d2b8b313ef1.pdf",
-    "index.html": "/qianrou-13/qr-portfolio.git/index.html",
-    "main.0cc33491.css.map": "/qianrou-13/qr-portfolio.git/static/css/main.0cc33491.css.map",
-    "main.f57738a8.js.map": "/qianrou-13/qr-portfolio.git/static/js/main.f57738a8.js.map"
+    "main.css": "/qianrou-13/qr-portfolio/static/css/main.0cc33491.css",
+    "main.js": "/qianrou-13/qr-portfolio/static/js/main.479ce2a8.js",
+    "static/media/Me2.jpg": "/qianrou-13/qr-portfolio/static/media/Me2.04476f847ea3a7b2d4dc.jpg",
+    "static/media/Testimonial1.jpg": "/qianrou-13/qr-portfolio/static/media/Testimonial1.908ae6b7168376390dbd.jpg",
+    "static/media/Testimonial2.jpg": "/qianrou-13/qr-portfolio/static/media/Testimonial2.a5ade79e691cd645f98d.jpg",
+    "static/media/QianRouKoh_Resume.pdf": "/qianrou-13/qr-portfolio/static/media/QianRouKoh_Resume.76dbdcc75d2b8b313ef1.pdf",
+    "index.html": "/qianrou-13/qr-portfolio/index.html",
+    "main.0cc33491.css.map": "/qianrou-13/qr-portfolio/static/css/main.0cc33491.css.map",
+    "main.479ce2a8.js.map": "/qianrou-13/qr-portfolio/static/js/main.479ce2a8.js.map"
   },
   "entrypoints": [
     "static/css/main.0cc33491.css",
-    "static/js/main.f57738a8.js"
+    "static/js/main.479ce2a8.js"
   ]
 }
